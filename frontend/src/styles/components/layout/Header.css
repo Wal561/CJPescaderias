@@ -1,0 +1,74 @@
+header {
+    background-image: linear-gradient(to bottom, #4484ce, #1c4a8c); 
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    }
+
+.holder {
+    
+    opacity: 0; /* Establecemos la opacidad inicial del logo en 0 */
+    animation: fadeIn 2s ease-in-out forwards; /* Agregamos la animación fadeIn con una duración de 1 segundo y un efecto suave de entrada/salida (ease-in-out) */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* El logo comienza con una opacidad de 0 */
+        transform: translateY(-20px); /* Lo movemos hacia arriba para que parezca que entra desde arriba */
+    }
+    to {
+        opacity: 1; /* El logo termina con una opacidad de 1 */
+        transform: translateY(0); /* Regresamos el logo a su posición original */
+    }
+    
+}
+
+
+
+
+header h1 {
+    color: #d9d9d9;
+    font-size: 40px;
+    font-family: 'Pirata One';
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    bottom: 55px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+header h3 {
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: 'Pirata One';
+    font-weight: 100;
+    font-style: italic;
+    
+    bottom: 55px;
+    margin-left: 10px;
+    text-align: center;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.logocap{
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 10px 10px 0px 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+    opacity: 0; /* Establecemos la opacidad inicial del logo en 0 */
+    animation: fadeIn 2s ease-in-out forwards; /* Agregamos la animación fadeIn con una duración de 1 segundo y un efecto suave de entrada/salida (ease-in-out) */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* El logo comienza con una opacidad de 0 */
+        transform: translateY(-20px); /* Lo movemos hacia arriba para que parezca que entra desde arriba */
+    }
+    to {
+        opacity: 1; /* El logo termina con una opacidad de 1 */
+        transform: translateY(0); /* Regresamos el logo a su posición original */
+    }
+    
+}

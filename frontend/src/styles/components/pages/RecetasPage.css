@@ -1,0 +1,74 @@
+.containerrecetas {
+    margin-top: 20px;
+}
+
+.seccionrecetas {
+    margin-top: 10px;
+}
+
+.recetas {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.tarjetareceta {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    margin: 5px;
+    background-image: linear-gradient(to top, #f19f4d, #f8efe5);
+    border-radius: .5rem;
+    transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out;
+    opacity: 0;
+    /* Establecemos la opacidad inicial de la tarjeta en 0 */
+}
+
+.tarjetareceta:nth-child(even) {
+    animation: slideInRight 2s ease forwards; /* Agregamos la animación slideInRight a las tarjetas pares con una duración de 1 segundo y un efecto suave de entrada (ease) */
+}
+
+.tarjetareceta:nth-child(odd) {
+    animation: slideInLeft 1s ease forwards; /* Agregamos la animación slideInLeft a las tarjetas impares con una duración de 1 segundo y un efecto suave de entrada (ease) */
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0; /* La tarjeta comienza con una opacidad de 0 */
+        transform: translateX(100%); /* La tarjeta se mueve hacia la derecha para que parezca que entra desde ese lado */
+    }
+    to {
+        opacity: 1; /* La tarjeta termina con una opacidad de 1 */
+        transform: translateX(0); /* Regresamos la tarjeta a su posición original */
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0; /* La tarjeta comienza con una opacidad de 0 */
+        transform: translateX(-100%); /* La tarjeta se mueve hacia la izquierda para que parezca que entra desde ese lado */
+    }
+    to {
+        opacity: 1; /* La tarjeta termina con una opacidad de 1 */
+        transform: translateX(0); /* Regresamos la tarjeta a su posición original */
+    }
+}
+
+.tarjetareceta:hover {
+    transform: scale(1.03) translateY(-10px)!important; 
+    
+}
+
+h1 {
+    color: #1e5594;
+    margin-top: 20px;
+    margin: 15px; 
+    text-align: center; 
+    text-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.card-title.card-title.h5 {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1), 0px 0px 20px rgba(255, 255, 255, 1), 0px 0px 30px rgba(255, 255, 255, 1), 0px 0px 40px rgba(241, 159, 77, 1);
+    color: black;
+
+}

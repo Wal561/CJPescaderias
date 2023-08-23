@@ -1,0 +1,19 @@
+
+.navbar-nav .nav-link{
+    font-size: 20px;
+    text-shadow: 1px 0px 2px #4484ce;
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f19f4d;
+    transform: scale(1.03) translateY(-4px)!important; 
+      
+}
+    
+  
+
+.navbar-nav .nav-link:active {
+    color: #f19f4d;
+
+}

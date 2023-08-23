@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "nombre": "Local Nro. 1",
+      "imagen": "/images/local1.jpg",
+      "descripcion": "Te esperamos en nuestro primer local Capitan Jack 1, zona centro norte de la ciudad. Remedios de Escalada Nro. 1175 - Rafaela ¡Visitanos!"
+      
+    },
+    {
+      "id": 2,
+      "nombre": "Local Nro. 2",
+      "imagen": "/images/local2.jpg",
+      "descripcion": "Estamos presentes en la zona comercial con nuestra Sucursal Capitan Jack 2 en Bv. Roca 3550 - Rafaela."
+      
+    },
+    {
+      "id": 3,
+      "nombre": "¡Las mejores ofertas!",
+      "imagen": "/images/carteleria.jpg",
+      "descripcion": "Encontrá nuestras mejores ofertas en nuestros locales, web y redes."
+      
+    },
+    {
+      "id": 4,
+      "nombre": "Contamos tambien con productos artesanales y bebidas",
+      "imagen": "/images/InteriorLocal.jpg",
+      "descripcion": "En nuestros locales podés encontrar los más ricos escabeches y los mejores vinos para acompañar nuestros pescados."
+      
+    },
+    {
+      "id": 5,
+      "nombre": "El pescado tiene que ser el más fresco",
+      "imagen": "/images/pezgallo.jpg",
+      "descripcion": "Nuestros productos cumplen con todas las normas de calidad."
+      
+    },
+    {
+      "id": 6,
+      "nombre": "Productos propios",
+      "imagen": "/images/tarucha.jpg",
+      "descripcion": "Disfrutá de nuestras elaboraciones propias, milanezas, empanadas y más... Todas preparadas en el día."
+    
+    },
+    {
+      "id": 7,
+      "nombre": "¡La mejor variedad!",
+      "imagen": "/images/kanicama.jpg",
+      "descripcion": "No busques más, en pescado tenemos todo..."
+      
+    },
+    {
+      "id": 8,
+      "nombre": "No olvides visitar NUESTRAS RECETAS",
+      "imagen": "/images/recetasdepescado.jpg",
+      "descripcion": "Visitá nuestra sección de recetas. Tenemos una gran variedad de recetas que recomendamos especialmente para preparar nuestros productos"
+      
+    }
+       
+  ]
