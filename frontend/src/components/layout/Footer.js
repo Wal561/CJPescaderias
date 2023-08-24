@@ -20,13 +20,13 @@ const Footer = (props) => {
         <Col>
         
         <p>Contactanos en redes:</p>
-            <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/'>
+            <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/' target="_blank">
                 <i><ImFacebook2/></i>
             </a>
-            <a href='https://api.whatsapp.com/send?phone=3492317823'>
+            <a href='https://api.whatsapp.com/send?phone=3492317823' target="_blank">
                 <i><ImWhatsapp/></i>
             </a>
-            <a href='https://www.instagram.com/capitanjackpescaderia/?hl=es'>
+            <a href='https://www.instagram.com/capitanjackpescaderia/?hl=es' target="_blank">
                 <i><ImInstagram/></i>
             </a>
             

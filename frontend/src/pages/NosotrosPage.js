@@ -28,9 +28,11 @@ const NosotrosPage = (props) => {
           </Col>
           <Col>
           <div className="staff">
-            <h2>Staff</h2>
+            <h2>Nuestro Capitan</h2>
             <div className="persona">
+              <div className="image-container">
                 <img src="images/images/nosotros/nosotros1.jpg" alt="Juan Gomez" />
+              </div>
                 <h5>Juan Gomez</h5>
                 <h6>Gerente General</h6>
                 <p> 
@@ -44,10 +46,13 @@ const NosotrosPage = (props) => {
         </Row>
         <Row>
         <Col>
+        
           <div>
             <h2>Sucrusal 1:</h2>
             <div className="persona">
-                <img src="images/local1.jpg" alt="Local uno" />
+              <div className="image-container">
+                <img src="images/local1.jpg" alt="Imagen local uno" className="image-shadow"/>
+              </div>
                 <h5>Remedios de Escalada 1175</h5>
                 <h6>Rafaela</h6>
                 <p> 
@@ -62,7 +67,9 @@ const NosotrosPage = (props) => {
           <div>
             <h2>Sucursal 2:</h2>
             <div className="persona">
-                <img src="images/local2.jpg" alt="Local uno" />
+                <div className="image-container">
+                <img src="images/local2.jpg" alt="Imagen local dos" />
+                </div>
                 <h5>Presidente Roca 3550</h5>
                 <h6>Rafaela</h6>
                 <p> 

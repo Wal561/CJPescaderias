@@ -52,7 +52,7 @@ const HomePage = (props) => {
           <Carousel.Item interval={2000}>
             <img
               className="d-block w-100"
-              src="images/surubi.jfif" alt="pescado de río"
+              src="images/camarones.jpg" alt="camarones"
             />
             <Carousel.Caption className="letrasCarousel">
               <h3>Pescados de río</h3>

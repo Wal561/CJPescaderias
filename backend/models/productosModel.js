@@ -1,5 +1,6 @@
 var pool = require('./bd');
 
+
 // muestra todos los productos de la BD en orden ascendente
 async function getProductos() {
   var query = "select * from productos order by id asc";
@@ -22,7 +23,7 @@ async function insertProducto(obj) {
 
 //Elimina productos de la BD
 async function deleteProductoById(id) {
-  var query = "delete from productos where id = ?"
+  var query = "delete from productos where id = ?";
   var rows = await pool.query(query, [id]);
   return rows;
 }

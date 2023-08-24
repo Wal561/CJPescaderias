@@ -14,8 +14,8 @@ router.get('/', async function (req, res, next) {
     if (producto. img_id) {
     const imagen = cloudinary.image( producto. img_id, {
       width: 100, // Tamaño de la imagen resultante
-      crop: 'fill', // Utiliza "fill" para el recorte inteligente
-      gravity: 'auto' // Esto le dice a Cloudinary que use el recorte inteligente
+      height: 100,
+      crop: 'scale'
     });
     return {
           ...producto,
