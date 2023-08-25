@@ -80,8 +80,8 @@ axios.post('http://localhost:3000/api/contacto', formData);
                         <li>Telefono: 03492 31-7823</li>
                         <li>Nuestras direcciones: Remedios de Escalada 1175  y bv Roca 1757, Rafaela, Argentina.</li>
                         <li>Email: contacto@capitanJack.com.ar</li>
-                        <li>Facebook: <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/' target="_blank">Nuestro Facebook</a></li>
-                        <li>Instagram: <a href='https://www.instagram.com/capitanjackpescaderia/' target="_blank">Nuestro Instagram</a></li>
+                        <li>Facebook: <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/' target="_blank" rel="noreferrer">Nuestro Facebook</a></li>
+                        <li>Instagram: <a href='https://www.instagram.com/capitanjackpescaderia/' target="_blank" rel="noreferrer">Nuestro Instagram</a></li>
 
                     </ul>
                 </div>

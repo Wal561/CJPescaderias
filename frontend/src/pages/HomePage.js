@@ -55,8 +55,8 @@ const HomePage = (props) => {
               src="images/camarones.jpg" alt="camarones"
             />
             <Carousel.Caption className="letrasCarousel">
-              <h3>Pescados de río</h3>
-              <p>La mayor variedad de pescados de río en la zona.</p>
+              <h3>Más de 40 años en la pesca</h3>
+              <p>Quienes conformamos Capitan Jack disfrutamos de la pesca deportiva desde hace más de 40 años.</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -66,14 +66,14 @@ const HomePage = (props) => {
       <h1>Conoce Nuestros Locales y Productos:</h1>  
       <hr />
         
-      <Row xs={1} md={2} className="g-2">
+      <Row xs={1} md={3} className="g-2">
       {presentacion.map((presentacion) => (
         <Col key={presentacion.id}>
           <Card className="tarjetaproducto">
             <Card.Img
               variant="top"
               src={presentacion.imagen}
-              style={{ objectFit: "cover", height: "200px" }}
+              style={{ objectFit: "cover", width: "100%", height: "500px" }}
             />
             <Card.Body>
               <Card.Title>{presentacion.nombre}</Card.Title>

@@ -52,7 +52,14 @@
       "id": 8,
       "nombre": "No olvides visitar NUESTRAS RECETAS",
       "imagen": "/images/recetasdepescado.jpg",
-      "descripcion": "Visitá nuestra sección de recetas. Tenemos una gran variedad de recetas que recomendamos especialmente para preparar nuestros productos"
+      "descripcion": "Visitá nuestra sección de recetas. Tenemos una gran variedad de recetas que recomendamos especialmente para preparar nuestros productos."
+      
+    },
+    {
+      "id": 9,
+      "nombre": "Convertite en uno más de nuestros Clientes",
+      "imagen": "/images/clientes.jpg",
+      "descripcion": "La satisfacción de nuestra clientela es nuestra mejor carta de presentación."
       
     }
        

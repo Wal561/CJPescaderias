@@ -12,7 +12,7 @@ import { ImFacebook2, ImWhatsapp, ImInstagram} from 'react-icons/im';
 const Footer = (props) => {
     return (
     <footer> 
-        <Container>
+        <Container className="containerfooter">
         <Row>
         <Col>
         <p>Derechos reservados. Capitan JACK Pescaderías.</p>
@@ -20,13 +20,13 @@ const Footer = (props) => {
         <Col>
         
         <p>Contactanos en redes:</p>
-            <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/' target="_blank">
+            <a href='https://www.facebook.com/people/Capit%C3%A1n-Jack/100027992936887/' target="_blank" rel="noreferrer">
                 <i><ImFacebook2/></i>
             </a>
-            <a href='https://api.whatsapp.com/send?phone=3492317823' target="_blank">
+            <a href='https://api.whatsapp.com/send?phone=3492317823' target="_blank" rel="noreferrer">
                 <i><ImWhatsapp/></i>
             </a>
-            <a href='https://www.instagram.com/capitanjackpescaderia/?hl=es' target="_blank">
+            <a href='https://www.instagram.com/capitanjackpescaderia/?hl=es' target="_blank" rel="noreferrer">
                 <i><ImInstagram/></i>
             </a>
             
