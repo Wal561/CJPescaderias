@@ -11,8 +11,8 @@ router.get('/productos', async function (req, res, next) {
     productos = productos.map(productos => {
         if (productos.img_id) {
             const imagen = cloudinary.url(productos.img_id, {
-            width: 960,
-            height: 200,
+            width: 350,
+            height: 175,
             crop: 'fill'
             });
         return {
@@ -36,8 +36,8 @@ router.get('/recetas', async function (req, res, next) {
     recetas = recetas.map(recetas => {
         if (recetas.img_id) {
             const imagen = cloudinary.url(recetas.img_id, {
-                width: 960,
-                height: 200,
+                width: 800,
+                height: 450,
                 crop: 'fill'
             });
             return {
