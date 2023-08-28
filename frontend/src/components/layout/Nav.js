@@ -30,7 +30,7 @@ function NavScrollExample() {
             
 
             <NavDropdown title="Mas..." id="navbarScrollingDropdown">
-              <NavDropdown.Item href="https://www.instagram.com/p/CpWBi1rPlnV/?hl=es">Nuestras Recetas</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.instagram.com/p/CpWBi1rPlnV/?hl=es">Nuestras Recetas en Instagram</NavDropdown.Item>
               <NavDropdown.Item href="#">
                 Mas información.
               </NavDropdown.Item>
